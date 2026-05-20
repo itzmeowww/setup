@@ -39,7 +39,7 @@ cp ~/.zshrc ~/.zshrc.bak
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
 sed -i 's/plugins=(git)/plugins=(\n  git\n  z\n  colored-man-pages\n  zsh-autosuggestions\n  zsh-syntax-highlighting\n)/' ~/.zshrc
 
-curl -fsSL https://raw.githubusercontent.com/romkatv/powerlevel10k/master/config/p10k-lean.zsh \
+curl -fsSL https://raw.githubusercontent.com/romkatv/powerlevel10k/master/config/p10k-classic.zsh \
   >~/.p10k.zsh
 
 echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >>~/.zshrc
